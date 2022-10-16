@@ -1,6 +1,8 @@
 {
   "expo": {
-    "name": "uts",
+    "owner": "revanfz",
+    "jsEngine": "hermes",
+    "name": "UTS PAM - Revan",
     "slug": "uts",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +26,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.revanfz.utspam"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f04af4d1-aca0-412e-aef0-9ccce6529399"
+      }
     }
   }
 }
